@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="title_activity_map_view">MapView</string>
+    <string name="title_activity_google_maps">GoogleMapsActivity</string>
+</resources>
