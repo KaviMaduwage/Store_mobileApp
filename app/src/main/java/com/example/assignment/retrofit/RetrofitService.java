@@ -26,7 +26,7 @@ public class RetrofitService {
                 .readTimeout(10,TimeUnit.SECONDS);
         OkHttpClient httpClient = httpClientBuilder.build();
 
-        retrofit = new Retrofit.Builder().baseUrl("http://192.168.1.100:8080")
+        retrofit = new Retrofit.Builder().baseUrl("http://ADD_YOUR_ID_ADDRESS:8080")
                 .client(httpClient)
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
